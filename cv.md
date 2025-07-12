@@ -7,7 +7,7 @@ Junior Frontend Developer
 - [Contact information](#contact-information)
 - [About Myself](#about-myself) 
 - [Skills](#skills)
-- [[Code example]](#code-example)
+- [Code example](#code-example)
 - [Education](#education)
 - [Languages](#languages)
 
@@ -71,6 +71,8 @@ palindrome("eye");
   - Freecodecamp Course "Legacy JavaScript Algorithms and Data Structures" (completed)
 
   - RS Schools Course "JS/FE Pre-School 2025Q2" (in progress)
+
+![](./assets/img/cert-fcc.jpg)
 
 ---
 
