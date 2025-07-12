@@ -1,10 +1,15 @@
 # Vadym Troian
 
-## Junior Frontend Developer
+Junior Frontend Developer
 
-[TOC]
+## Table of contents
 
-
+- [Contact information](#contact-information)
+- [About Myself](#about-myself) 
+- [Skills](#skills)
+- [[Code example]](#code-example)
+- [Education](#education)
+- [Languages](#languages)
 
 ---
 
