@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="info">
+          <img src="assets/img/avatar.jpg" alt="Вадим Троян" class="avatar" />
+          <div class="info-text">
+            <section class="section" id="profile">
+              <h1 class="section-title">Vadym Troian</h1>
+            </section>
+          </div>
+        </div>
+        <section class="section bg-green" id="contacts">
+          <h2 class="section-title">Contact information</h2>
+          <ul class="link-list">
+            <li>Location: Kyiv, Ukraine</li>
+            <li>Discort: vadym troian (@vadim-troian)</li>
+            <li>E-mail: vadymtroiyan@gmail.com</li>
+            <li>
+              <a href="https://web.telegram.org/" target="_blank"
+                >Telegram: @Vadim_Viktorovich_39</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section bg-red" id="summary">
+          <h2 class="section-title">About Myself</h2>
+          <p>
+            I am a reliable and responsible person with experience as an
+            accountant. I love to study and master new things. Now I am aiming
+            to work as a web developer.
+          </p>
+        </section>
+        <section class="section bg-yellow" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="link-list">
+            <li>HTML, CSS</li>
+            <li>JavaScript Basics</li>
+            <li>Git, GitHub</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <pre><code class='language-javascript' lang='javascript'>function palindrome(str) {
+
+   str = str.toLowerCase().replace(/[\W_]/g, &#39;&#39;);
+   for (let i = 0, len = str.length - 1; i &lt; len / 2; i++) {
+      if (str[i] !== str[len - i]) {
+         return false;
+      }
+   }
+   return true;
+}
+
+palindrome(&quot;eye&quot;);
+</code></pre>
+        </section>
+        <section class="section bg-green" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="link-list">
+            <li>Freecodecamp Course "Responsive Web Design" (completed)</li>
+            <li>
+              Freecodecamp Course "Legacy JavaScript Algorithms and Data
+              Structures" (completed)
+            </li>
+            <li>RS Schools Course "JS/FE Pre-School 2025Q2" (in progress)</li>
+          </ul>
+        </section>
+        <section class="section bg-red" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="link-list">
+            <li>
+              <a
+                href="https://vadim-troian.github.io/rsschool-cv/"
+                target="_blank"
+                >Project CV</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="link-list">
+            <li>University: Kharkiv National University of Economics</li>
+          </ul>
+        </section>
+        <section class="section bg-yellow" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="link-list">
+            <li>English - Pre-Intermediate</li>
+            <li>Russian - Native</li>
+            <li>Ukrainian - Advanced</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="navbar">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">© 2025 by Vadym Troian</a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/vadim-troian" class="nav-link"
+                >Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="https://rs.school/courses/javascript-ru" class="nav-link"
+                >JS / Front-end RU Course</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="№" class="nav-link"
+                ><img
+                  src="assets/img/rs-school-logo.svg"
+                  alt="rs-school-logo"
+                  height="40"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
