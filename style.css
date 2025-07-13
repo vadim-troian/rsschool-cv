@@ -22,12 +22,6 @@ body {
   justify-content: space-between;
 }
 
-.header,
-.main,
-.footer {
-  border: 1px solid red;
-}
-
 .container {
   max-width: 1040px;
   margin: 0 auto;
