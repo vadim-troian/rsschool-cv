@@ -78,19 +78,11 @@
         </section>
         <section class="section" id="code">
           <h2 class="section-title">Code example</h2>
-          <pre><code class='language-javascript' lang='javascript'>function palindrome(str) {
-
-   str = str.toLowerCase().replace(/[\W_]/g, &#39;&#39;);
-   for (let i = 0, len = str.length - 1; i &lt; len / 2; i++) {
-      if (str[i] !== str[len - i]) {
-         return false;
-      }
-   }
-   return true;
-}
-
-palindrome(&quot;eye&quot;);
-</code></pre>
+          <pre class="pre"><code>function factorial(n) {
+  if(n &lt; 0) return null;
+  if (n &lt;= 1) return 1;
+  return n * factorial(n-1);
+}</code></pre>
         </section>
         <section class="section bg-green" id="courses">
           <h2 class="section-title">Courses</h2>

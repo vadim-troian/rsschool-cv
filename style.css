@@ -109,6 +109,11 @@ a:active {
   margin-bottom: 10px;
 }
 
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
 .section {
   border-radius: 20px;
   padding: 15px 20px;
